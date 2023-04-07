@@ -1,16 +1,19 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2023/03/iron-man-comics-marvel-2973278.jpg?itok=wOPnWcYx
-    alt="
-    height="200px">
+    <img
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+    >
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Saiu uma nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
     <p>
         <a href="#">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut interdum metus. Suspendisse purus dolor, tempor eget sapien non, ultrices euismod nibh. Phasellus porttitor viverra augue non molestie. Praesent luctus est metus, vitae mollis ante porttitor placerat. Ut consequat nec dolor eu posuere. Maecenas aliquet dolor quis elit vehicula bibendum. Aenean dapibus suscipit tortor sed sagittis.
+          {{ cardDescription }}
       </a>
     </p>
   </div>
